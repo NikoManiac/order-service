@@ -4,11 +4,15 @@ WORKDIR /app
 # copy csproj and restore as distinct layers
 COPY *.sln .
 COPY src/order-service/*.csproj ./src/order-service/
+COPY src/storage-service/*.csproj ./src/storage-service/
+COPY src/production-service/*.csproj ./src/production-service/
 COPY test/order-service-test/*.csproj ./test/order-service-test/
 RUN dotnet restore
 
 # copy everything else and build app
 COPY src/order-service/. ./src/order-service/
+COPY src/production-service/. ./src/production-service/
+COPY src/storage-service/. ./src/storage-service/
 COPY test/order-service-test/. ./test/order-service-test/
 WORKDIR /app/src/order-service
 RUN dotnet publish -c Release -o out
