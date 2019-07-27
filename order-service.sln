@@ -4,9 +4,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "order-service", "src\order-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "order-service-test", "test\order-service-test\order-service-test.csproj", "{43D769B6-C25A-4E65-AA35-1C8FF478BF09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "storage-service", "storage-service\storage-service.csproj", "{45932CD7-E14E-45A1-8C6A-28F702A31FED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "storage-service", "src\storage-service\storage-service.csproj", "{45932CD7-E14E-45A1-8C6A-28F702A31FED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "production-service", "production-service\production-service.csproj", "{96BE027A-D767-42D7-9F2B-FFC780BC90A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "production-service", "src\production-service\production-service.csproj", "{96BE027A-D767-42D7-9F2B-FFC780BC90A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

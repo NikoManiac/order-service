@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using orderService.Infrastructures.Bootstrap;
+using orderService.Infrastructures.Bootstrap.DatabaseModules;
 using storage_service.Applications;
 using storage_service.Domains;
 
